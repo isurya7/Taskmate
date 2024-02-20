@@ -1,0 +1,52 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches
+*.cache
+
+# Virtual environment
+venv/
+env/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+
+# Django generated files
+*.db
+*.sqlite3
+*.pyc
+*.pyo
+__pycache__/
+media/
+static/
+
+# macOS
+.DS_Store
+
+# Editor-specific files
+.idea/
+.vscode/
+
+# Compiled Python bytecode
+*.pyc
+
+# Compiled C extensions
+*.so
+
+# Dependency folders
+env/
+node_modules/
+
+# Local development settings
+local_settings.py
+
+# Ignore secret key file
+*.key
+
+# Ignore environment variable file
+.env
