@@ -31,8 +31,8 @@ SECRET_KEY = env('DJANGO_SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = env.bool('DJANGO_DEBUG', default=False)
 
-ALLOWED_HOSTS = ["localhost", '127.0.0.1', 'web-production-6648.up.railway.app']
-CSRF_TRUSTED_ORIGINS = ['https://web-production-6648.up.railway.app']
+ALLOWED_HOSTS = ["localhost", '127.0.0.1', 'taskmate-todolist.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['https://taskmate-todolist.up.railway.app/']
 
 # Application definition
 
