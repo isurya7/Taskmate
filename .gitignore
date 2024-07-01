@@ -23,7 +23,7 @@ env/
 *.pyo
 __pycache__/
 media/
-static/
+# static/
 
 # macOS
 .DS_Store
